@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    text-decoration: none;
+}
+
+body{
+    background-image: url(./img/baby-mastermind.png);
+    height: 100%;
+    width: 100%;
+}
+header{
+    width: 100%;
+    padding: 100px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #891430;
+}
+.calculator{
+    max-width: 360px;
+    margin-left: 20%; margin-top: 5%; margin-right: 20%;
+    border: 2px solid;
+}
+.result{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+    background-color:#000;
+    color:#fff;
+    padding: 5px;
+    width: 100%;
+    height: 100px;
+    text-align: right;
+}
+.calculator-buttons{
+    display:grid;
+    grid-template-columns: repeat(4,1fr);
+}
+.operators{
+    background-color:#727272;
+    color: #000;
+}
+.button, .operators{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size:20px;
+    height: 60px;
+    border:1px solid black;
+}
+.button, .operators:hover{
+    background: #CDCDCD;
+}
+.span-3{
+    grid-column: span 3;
+}
