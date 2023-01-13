@@ -1,5 +1,8 @@
 # Mastermind
 
+![Logo](./img/baby-mastermindpng.jpeg)
+
+
 ## Projeto por fins de estudo/ desenvolvimento
 
 Trata-se de uma calculadora desenvolvida com CSS Grid
